@@ -1,3 +1,12 @@
+:root {
+  --clr-primary: #00FFF7;
+  --clr-secondary: #2F415B;
+  --clr-secondary-dk: #14253D;
+  --clr-secondary-dkr: #0D192B;
+  --clr-base: #8BACDA;
+  --clr-ntrl-max: #FFF;
+  --ff-primary: 'Outfit', sans-serif;
+}
 /* ========== RESET ========== */
 html {
   font-size: 100%;
@@ -9,6 +18,7 @@ html {
   box-sizing: inherit;
 }
 body {
+  font-family: var(--ff-primary);
   line-height: 1.4;
 }
 ul, ol {
